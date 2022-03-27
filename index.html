@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    .leg{
+    font-size: 15px;
+    font-family: 'Courier New', Courier, monospace;
+    color: blueviolet;
+}
+.h4{
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+.for{
+    background-color: aqua;
+}
+.image1{
+    border-radius: 20px;
+    width: 350px;
+    background-color: blue;
+}
+</style>
+</head>
+<body>
+    <form id="for">
+        <fieldset>
+        <legend id="leg">Contact</legend>
+        <h4><label>Civilité</h4></label>
+        <h4><label>Sexe</label></h4><select><option value="h">Monsieur</option><option value="f">Femme</option>
+        </select>
+        <h4><label>Nom/prénom</label><input type="text"></h4>
+        <h4><label>Email</label><input type="email"></h4>
+        <h4><label>Sujet</label><input type="text"></h4>
+        <h4><label>Message</label><textarea cols="20" rows="5"></textarea></h4>
+        <label><input type="submit" value="envoyer"><input type="reset" value="annuler"></label>
+    </form>
+   </fieldset>
+</body>
+</html>
